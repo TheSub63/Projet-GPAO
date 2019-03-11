@@ -34,3 +34,6 @@ Gantt (partie plannification)
 Entretien avec la prof
 
 ---- Objectifs pour la scéance suivante ----
+
+Revisualiser le projet avec les nouvelles consignes
+Se preparer pour la revue de projet
