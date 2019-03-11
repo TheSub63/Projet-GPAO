@@ -1,5 +1,15 @@
 <-------04/03---------->
 
+Nathan Hywinn Orsoni
+
+---- Les données du prof -----
+identifiant: root
+mdp: gonfle!
+
+acces à un serveur:
+"apachectl start" pour lancer le serveur sur le terminal 
+"localhost" pour accéder à la page sur firefox
+"cd /var/www/html" acces au dossier sur le terminal
 
 ---- Résumé de la Sceance ----
 
@@ -21,3 +31,4 @@ Diagramme de Gantt
 Doit-on gérer le planning des opérateurs? 
 Y a t-il toujours un opérateur sur une machine?
 Est ce que la gamme peut ne pas devoir commencer avant une certaine date?
+
