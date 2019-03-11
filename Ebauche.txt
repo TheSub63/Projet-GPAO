@@ -18,6 +18,7 @@ Diagramme de Gantt
 
 ---- Questions ----
 
-Doit-on gérer le planning des opérateurs? 
-Y a t-il toujours un opérateur sur une machine?
-Est ce que la gamme peut ne pas devoir commencer avant une certaine date?
+Doit-on gérer le planning des opérateurs? (statistique)
+Y a t-il toujours un opérateur sur une machine? OUI
+
+GESTION DES STOCKS
