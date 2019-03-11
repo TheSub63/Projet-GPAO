@@ -1133,7 +1133,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+id_machine",
+											"text": "+id_machine {unique}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -1166,6 +1166,35 @@
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpa+EHxfIShLE=",
+											"_parent": {
+												"$ref": "AAAAAAFpa6bXyeK7Eyg="
+											},
+											"model": {
+												"$ref": "AAAAAAFpa+EHpvIPXLs="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 85,
+											"top": 436,
+											"width": 135,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+NombreOperateur",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
 										}
 									],
 									"visible": true,
@@ -1180,7 +1209,7 @@
 									"left": 80,
 									"top": 401,
 									"width": 145,
-									"height": 38,
+									"height": 53,
 									"autoResize": false
 								},
 								{
@@ -1202,7 +1231,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 80,
-									"top": 439,
+									"top": 454,
 									"width": 145,
 									"height": 10,
 									"autoResize": false
@@ -1268,7 +1297,7 @@
 							"left": 80,
 							"top": 376,
 							"width": 145,
-							"height": 73,
+							"height": 103,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -5302,6 +5331,99 @@
 							},
 							"visibility": "public",
 							"isDerived": false
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFpa+boCfpb2bY=",
+							"_parent": {
+								"$ref": "AAAAAAFpa6bXyOKz460="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFpa+boCfpcErs=",
+								"_parent": {
+									"$ref": "AAAAAAFpa+boCfpb2bY="
+								},
+								"reference": {
+									"$ref": "AAAAAAFpa6bXyOKz460="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFpa+boCfpdMo8=",
+								"_parent": {
+									"$ref": "AAAAAAFpa+boCfpb2bY="
+								},
+								"name": "0..*",
+								"reference": {
+									"$ref": "AAAAAAFpa6bXyOKz460="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFpa+eNov29cOU=",
+							"_parent": {
+								"$ref": "AAAAAAFpa6bXyOKz460="
+							},
+							"name": "0..*",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFpa+eNov2+ie0=",
+								"_parent": {
+									"$ref": "AAAAAAFpa+eNov29cOU="
+								},
+								"name": "0..*",
+								"reference": {
+									"$ref": "AAAAAAFpa6bXyOKz460="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFpa+eNo/2/HUc=",
+								"_parent": {
+									"$ref": "AAAAAAFpa+eNov29cOU="
+								},
+								"reference": {
+									"$ref": "AAAAAAFpa6b5ReLdkbU="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
 						}
 					],
 					"visibility": "public",
@@ -5318,7 +5440,7 @@
 							"isLeaf": false,
 							"isReadOnly": false,
 							"isOrdered": false,
-							"isUnique": false,
+							"isUnique": true,
 							"isDerived": false,
 							"aggregation": "none",
 							"isID": false
@@ -5330,6 +5452,23 @@
 								"$ref": "AAAAAAFpa6bXyOKz460="
 							},
 							"name": "Nom",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFpa+EHpvIPXLs=",
+							"_parent": {
+								"$ref": "AAAAAAFpa6bXyOKz460="
+							},
+							"name": "NombreOperateur",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,

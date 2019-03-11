@@ -8,7 +8,7 @@ Liste des gammes comprenant une ou plusieurs tâches, un indicateur
 - Tâches (IdTache PRIMARY, #IdGamme, #IdMachine, #IdOperateur, TempsEstime, Nom, Priorité, Stock?)
 Liste des tâches utilisant une et une seule machine et 0 ou plus Operateurs, ainsi que le temps estime
 
-- Machine (IdMachine PRIMARY, Nom)
+- Machine (IdMachine PRIMARY, Nom, NombreOperateurs)
 LIste des machines utilisant un ou plusieurs opérateurs
 
 - Opérateurs (IdOperateur PRIMARY, Nom, Prenom, Type, Disponible?)

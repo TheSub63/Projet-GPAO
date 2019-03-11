@@ -22,3 +22,15 @@ Doit-on gérer le planning des opérateurs? (statistique)
 Y a t-il toujours un opérateur sur une machine? OUI
 
 GESTION DES STOCKS
+
+<-------11/03---------->
+
+
+---- Résumé de la Sceance ----
+
+Création du MCD
+Rédaction du cahier des charges
+Gantt (partie plannification)
+Entretien avec la prof
+
+---- Objectifs pour la scéance suivante ----
