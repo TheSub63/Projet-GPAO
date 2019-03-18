@@ -37,3 +37,21 @@ Entretien avec la prof
 
 Revisualiser le projet avec les nouvelles consignes
 Se preparer pour la revue de projet
+
+<-------18/03---------->
+
+
+---- Résumé de la Sceance ----
+
+Entretien avec le prof
+Fini le diapo
+Update du MOckUp, du MCD et du Gantt
+Répartition des rôles
+Début du code HTML/CSS
+Début du code Godot
+
+---- Objectifs pour la scéance suivante ----
+
+Revue de projet
+Intégration de Godot dans le site web
+Début de code de l'algorithme
