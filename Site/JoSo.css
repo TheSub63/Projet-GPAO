@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(170, 209, 203);
+    background-color: #5F9EA0;
 }
 
 p
@@ -17,6 +17,18 @@ h1
     text-align: center;
     padding: auto;
     font-size: 400%;
+}
+
+h2
+{
+    font-size: 200%;
+}
+
+.machine{
+    background-color:rgba(255,255,255,0.5);
+    display:inline-block;
+    font-family: "Lucida Console",monospace,SansSerif;
+    padding:10px;
 }
 
 .bouton {
