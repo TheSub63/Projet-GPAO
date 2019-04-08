@@ -98,7 +98,7 @@ def MinimalJobshopSat():
 
             for assigned_task in assigned_jobs[machine]:
                 name = 'job_%i_%i' % (assigned_task.job, assigned_task.index)
-                # Add spaces to output to align columns.
+                # Add spaces to output to align columns. job_numjob_nummachine
                 sol_line_tasks += name + ' ' * (disp_col_width - len(name))
                 start = assigned_task.start
                 duration = jobs_data[assigned_task.job][assigned_task.index][1]
@@ -113,6 +113,12 @@ def MinimalJobshopSat():
         print(sol_line_tasks)
         print('Task Time Intervals\n')
         print(sol_line)
+        
+        fichier = open('ordo.txt', "w")
+        
+        fichier.write('le texte:\n')
+        
+        fichier.close()
 
 
 MinimalJobshopSat()
