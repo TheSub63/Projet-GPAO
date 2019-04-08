@@ -18,14 +18,17 @@
 <body>
 <main>
     <p>L'Ordonnancement le plus <strong>OP</strong> de l'interweb.</p>
-    
 </main>
-<a href="GPAO.html"> <button class="bouton">Découvrir</button></a>
 
-<div class="machine"><h2>Machines disponibles</h2><iframe src="data/machines.txt" frameborder="0" height="400"
-           width="95%"></iframe></div>
-
+<form method="post" action="JobShop.php">
+    <p>
+        <label for="pseudo">Login:</label><br/>
+        <input type="text" name="pseudo" id="pseudo" />
+        <br />
+        <label for="pass">Votre mot de passe :</label><br/>
+        <input type="password" name="pass" id="pass" /><br/>
+        <input type="submit" value="Connexion" name="connexion" />
+    </p>
+</form>
 </body>
-
-
 </html> 
